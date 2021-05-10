@@ -14020,3 +14020,30 @@ input[data-drupal-selector="edit-submit-clasificados"]{
 
 
 /* Fin - Clasificados Portada VC */
+
+/* Inicio - Transmision en vivo banner */
+
+.transmision-vivo-banner{
+  background-image: url(../../../images/transmision-vivo-banner.jpg);
+  height: 20rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(90%);
+-webkit-filter: brightness(90%);
+-moz-filter: brightness(90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.transmision-vivo-banner__texto{
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center
+}
+
+/* Fin - Transmision en vivo banner */
