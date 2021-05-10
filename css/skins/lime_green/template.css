@@ -13925,6 +13925,98 @@ input[data-drupal-selector="edit-unsubscribe"]{
 
 /* Inicio - Clasificados Portada VC */
 
+input[data-drupal-selector="edit-submit-clasificados"]{
+  color: #fff;
+  border: none;
+  background-color: #8ec44d;
+}
+
+.clasificados-banner{
+  background-image: url(../../../images/clasificados-banner.jpg);
+  height: 20rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(90%);
+-webkit-filter: brightness(90%);
+-moz-filter: brightness(90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clasificados-banner__texto{
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center
+}
+
+.clasificados-block{
+  border-left: solid 1px #aaaaaa;
+  border-radius: 5px;
+  
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 1rem 0;
+}
+
+.clasificados-content-image{
+  overflow: hidden;
+}
+
+.clasificados-content-image img{
+  transition: transform .2s; 
+}
+
+.clasificados-content-image img:hover{
+  transform: scale(1.5);
+  transition: 0.8s;
+}
+
+.clasificados-content-info{
+  padding: 1rem;
+  height: 24rem;
+}
+
+.clasificados-post-encabezado{
+  height: 7rem;
+}
+
+.clasificados-post__titulo{
+  height: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.clasificados-post__valor{
+  height: 1rem;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.clasificados-post-info{
+  padding: 1rem 0;
+}
+
+.clasificados-post__categoria,
+.clasificados-post__fecha{
+  height: 2rem;
+  font-weight: 700;
+}
+
+.clasificados-post__comentario{
+  display: none;
+}
+
+.clasificados-post-resumen{
+  overflow: hidden;
+  word-wrap: break-word;
+}
 
 
 /* Fin - Clasificados Portada VC */
