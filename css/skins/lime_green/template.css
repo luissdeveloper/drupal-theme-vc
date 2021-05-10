@@ -13884,6 +13884,7 @@ body {
 /* Fin  Barra Redes Sociales */
 
 
+/* Footer Home VC */
 
 #edit-comment-body-0-format{
   display: none;
@@ -13903,3 +13904,27 @@ body {
     color: #000;
     visibility: visible;
 }
+
+/* Footer Home VC*/
+
+body.footer-white #footer{
+  background-color: #272727;
+}
+
+body.footer-white #footer,
+body.footer-white #footer a,
+body.footer-white #footer .block .block-title span{
+  color: #fff !important;
+}
+
+input[data-drupal-selector="edit-unsubscribe"]{
+  color: #000;
+}
+
+/*Fin - Footer Home VC */
+
+/* Inicio - Clasificados Portada VC */
+
+
+
+/* Fin - Clasificados Portada VC */
