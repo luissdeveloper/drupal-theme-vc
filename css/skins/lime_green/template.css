@@ -13606,6 +13606,10 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   background: black;
 }
 
+.transmision-vivo-titulo-top{
+  color: #fff;
+}
+
 .transmision-vivo-titulo{
   font-size: 2rem;
   text-align: center;
