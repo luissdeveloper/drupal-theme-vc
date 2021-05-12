@@ -13909,6 +13909,14 @@ input[data-drupal-selector="edit-submit-clasificados"]{
   background: linear-gradient(90deg, #272727 0%, #182848 100%);
 }
 
+@media(min-width: 768px){
+  #block-views-block-front-transmision-en-vivo-block-1 .views-field.views-field-field-video-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 <<<<<<< HEAD
 @media(min-width: 768px){
   .class-field-group-front,
