@@ -1,4 +1,4 @@
-/****/
+***/
 a {
   -webkit-transition: all 0.35s;
   -o-transition: all 0.35s;
@@ -13572,135 +13572,10 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 #block-gavias-colin-content > div > div > div > div.view-content-wrap > div > fieldset.class-field-group{
   width: 100%;
   height: auto;
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
   padding: 10px 20px 50px 20px;
   background: black;
   margin-bottom: 50px;
 }
-
-.class-field-group-front{
-  width: 100%;
-  /*height: 100%;*/
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
-  padding: 15px 20px 50px 20px;
-  background: black;
-  /*margin-bottom: 50px;*/
-}
-
-/* Inicio - Bloque transmisión en vivo */
-
-/*#block-vueltadelporvenirytourfemeninodeciclismocasanare2020{
-  background-color: #272727;
-}
-
-#block-views-block-front-transmision-en-vivo-block-1 > div.content.block-content > div > div > div.view-content-wrap > div > fieldset > div.views-field.views-field-field-video-redes{
-  display: flex;
-  justify-content: center;
-}
-
-.block-ok{
-  background: black;
-}
-
-.transmision-vivo-titulo-top{
-  color: #fff;
-}
-
-.transmision-vivo-titulo{
-  font-size: 2rem;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: white;
-}
-
-@media (min-width: 768px){
-  .transmision-vivo-titulo{
-    color: #272727
-  }
-}
-
-.transmision-vivo-fecha{
-
-}
-
-.transmision-titulo{
-  font-size: 1.5rem;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-}
-
-.transmision-fecha{
-
-}
-
-.transmision-vivo-titulo:hover{
-  color: white;
-}
-
-
-.transmision-titulo:hover{
-  color: black;
-}
-
-
-.transmision-vivo-titulo-front{
-  font-size: 2.3rem;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: white;
-}
-
-
-@media (max-width: 480px){
-
-  .class-field-group{
-    width: 100%;
-    height: auto;
-    padding: 10px 20px 20px 20px;
-    background: black;
-    margin-bottom: 50px;
-  }
-
-  .class-field-group-front{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 0px;
-  background: black;
-}
-  .transmision-vivo-titulo{
-    font-size: 1.5rem;
-  }
-  .transmision-titulo{
-    font-size: 1.5rem;
-  }
-
-  .transmision-vivo-titulo-front{
-  font-size: 1.2rem;
-}
-
-#block-views-block-front-transmision-en-vivo-block-1 > div.content.block-content > div > div > div.view-content-wrap > div > fieldset > div.views-field.views-field-field-video-redes{
-  display: block;
-}
-
-#block-views-block-front-transmision-en-vivo-block-1 > div.content.block-content > div > div > div.view-content-wrap > div{
-  padding: 0px;
-}
-
-
-}*/
-
-/* Fin - Bloque transmisión en vivo */
 
 /* Fin CSS ILL */
 
@@ -14025,6 +13900,93 @@ input[data-drupal-selector="edit-submit-clasificados"]{
 
 /* Fin - Clasificados Portada VC */
 
+/* Inicio - Bloque transmisión en vivo */
+
+.class-field-group-front,
+.class-field-group--top{
+  width: 100%;
+  padding: 15px 20px 50px 20px;
+  background: linear-gradient(90deg, #272727 0%, #182848 100%);
+}
+
+.views-field.views-field-title{
+  text-align: center;
+  padding: 0;
+  height: 5rem;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+@media(min-width: 768px){
+  .views-field.views-field-title{
+    text-align: center;
+    padding: 0;
+    height: 3rem;
+    overflow: hidden;
+    word-break: break-word;
+  }
+}
+
+#block-views-block-transmision-en-vivo-block-1 .views-field-title{
+  text-align: left;
+  padding: 0.5rem 0;
+}
+
+.transmision-vivo-titulo--bottom,
+.transmision-vivo-titulo--top,
+.transmision-vivo-titulo--front
+{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.transmision-vivo-titulo--bottom:hover,
+.transmision-vivo-titulo--top:hover,
+.transmision-vivo-titulo--front:hover
+{
+  color: #8ec44d;
+}
+
+.transmision-vivo-titulo--bottom{
+  color: #272727;
+  font-size: 1.5rem;
+}
+
+.transmision-vivo-titulo--top{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.transmision-vivo-titulo--front{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.transmision-vivo-fecha{
+
+}
+
+
+@media (min-width: 768px){
+
+  .transmision-vivo-titulo--bottom{
+    font-size: 1.5rem;
+  }
+
+  .transmision-vivo-titulo--top{
+    font-size: 2rem;
+  }
+
+  .transmision-vivo-titulo--front{
+    font-size: 2.5rem;
+  }
+
+}
+
+/* Fin - Bloque transmisión en vivo */
+
 /* Inicio - Transmision en vivo banner */
 
 .transmision-vivo-banner{
@@ -14055,7 +14017,6 @@ input[data-drupal-selector="edit-submit-clasificados"]{
 /* Inicio - Transmision en vivo proximo */
 
 .transmision-vivo-proximo{
-  /*background-image: url(../../../images/transmision-vivo-banner.jpg);*/
   background: linear-gradient(to right, rgba(164,179,87,1) 0%, rgba(142,196,77,1) 100%);
   height: 7rem;
   background-position: center;
@@ -14081,57 +14042,10 @@ input[data-drupal-selector="edit-submit-clasificados"]{
 
 /* Fin - Transmision en vivo proximo */
 
-/* Inicio - Video Facebook */
-/*.video-embed-field-provider-facebook.video-embed-field-responsive-video {
-  height: 700px;
+/* Inicio -  Video Facebook*/
+.views-field.views-field-field-video-facebook iframe{
+  margin-top: 1rem;
 }
-*/
-/*@media(min-width: 768px){
-  .video-embed-field-provider-facebook.video-embed-field-responsive-video {
-    height: 50vw;
-  }
-}
-
-.video-embed-field-provider-facebook.video-embed-field-responsive-video > iframe {
-    height: 500px;
-    z-index: 100;
-}
-
-@media(min-width: 768px){
-  .video-embed-field-provider-facebook.video-embed-field-responsive-video > iframe {
-    height: 50vw;
-    z-index: 100;
-  }
-}
-
-*/
-
-/* Fin - Video Facebook */
-
-/*.video-embed-field-provider-facebook.video-embed-field-responsive-video{
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; 
-  height: 100%;
-}
-.video-embed-field-provider-facebook.video-embed-field-responsive-video iframe{
-
-  position: absolute;
-  padding-top: 150px;;
-  padding-left: 50px;
-  padding-right: 50px;
-  
-  width: 100%;
-  height: 100%;
-}*/
-
-/*.views-field.views-field-field-video-facebook{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 500px;
-}*/
 
 @media(max-width: 767px){
   .views-field.views-field-field-video-facebook p{
@@ -14158,21 +14072,5 @@ input[data-drupal-selector="edit-submit-clasificados"]{
   }
 }
 
+/*Fin - Video Facebook*/
 
-/*Funciona*/
-/*.views-field.views-field-field-video-facebook iframe{
-  width: min(95%);
-}*/
-
-
-/*@media(min-width: 768px){
-  .views-field.views-field-field-video-facebook iframe{
-  width: auto;
-}
-
-  .views-field.views-field-field-video-facebook{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}*/
