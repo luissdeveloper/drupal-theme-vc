@@ -13593,7 +13593,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 
 /* Inicio - Bloque transmisión en vivo */
 
-#block-vueltadelporvenirytourfemeninodeciclismocasanare2020{
+/*#block-vueltadelporvenirytourfemeninodeciclismocasanare2020{
   background-color: #272727;
 }
 
@@ -13664,9 +13664,6 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   .class-field-group{
     width: 100%;
     height: auto;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
     padding: 10px 20px 20px 20px;
     background: black;
     margin-bottom: 50px;
@@ -13680,7 +13677,6 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   align-items: center;
   padding: 15px 0px;
   background: black;
-  /*margin-bottom: 50px;*/
 }
   .transmision-vivo-titulo{
     font-size: 1.5rem;
@@ -13702,7 +13698,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 
-}
+}*/
 
 /* Fin - Bloque transmisión en vivo */
 
@@ -14084,3 +14080,99 @@ input[data-drupal-selector="edit-submit-clasificados"]{
 }
 
 /* Fin - Transmision en vivo proximo */
+
+/* Inicio - Video Facebook */
+/*.video-embed-field-provider-facebook.video-embed-field-responsive-video {
+  height: 700px;
+}
+*/
+/*@media(min-width: 768px){
+  .video-embed-field-provider-facebook.video-embed-field-responsive-video {
+    height: 50vw;
+  }
+}
+
+.video-embed-field-provider-facebook.video-embed-field-responsive-video > iframe {
+    height: 500px;
+    z-index: 100;
+}
+
+@media(min-width: 768px){
+  .video-embed-field-provider-facebook.video-embed-field-responsive-video > iframe {
+    height: 50vw;
+    z-index: 100;
+  }
+}
+
+*/
+
+/* Fin - Video Facebook */
+
+/*.video-embed-field-provider-facebook.video-embed-field-responsive-video{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 100%;
+}
+.video-embed-field-provider-facebook.video-embed-field-responsive-video iframe{
+
+  position: absolute;
+  padding-top: 150px;;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+  width: 100%;
+  height: 100%;
+}*/
+
+/*.views-field.views-field-field-video-facebook{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 500px;
+}*/
+
+@media(max-width: 767px){
+  .views-field.views-field-field-video-facebook p{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+
+  .views-field.views-field-field-video-facebook iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+}
+
+@media(min-width: 768px){
+  .views-field.views-field-field-video-facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/*Funciona*/
+/*.views-field.views-field-field-video-facebook iframe{
+  width: min(95%);
+}*/
+
+
+/*@media(min-width: 768px){
+  .views-field.views-field-field-video-facebook iframe{
+  width: auto;
+}
+
+  .views-field.views-field-field-video-facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}*/
