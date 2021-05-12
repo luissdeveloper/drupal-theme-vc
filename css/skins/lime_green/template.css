@@ -13909,6 +13909,7 @@ input[data-drupal-selector="edit-submit-clasificados"]{
   background: linear-gradient(90deg, #272727 0%, #182848 100%);
 }
 
+<<<<<<< HEAD
 @media(min-width: 768px){
   .class-field-group-front,
   .class-field-group--top{
@@ -13918,6 +13919,8 @@ input[data-drupal-selector="edit-submit-clasificados"]{
   }
 }
 
+=======
+>>>>>>> 66019d9d25b18a21862b5d5d5709f9a12d74ea1a
 .views-field.views-field-title{
   text-align: center;
   padding: 0;
