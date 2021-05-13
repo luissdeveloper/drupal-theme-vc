@@ -13910,15 +13910,6 @@ input[data-drupal-selector="edit-submit-clasificados"]{
 }
 
 @media(min-width: 768px){
-  #block-views-block-front-transmision-en-vivo-block-1 .views-field.views-field-field-video-redes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-<<<<<<< HEAD
-@media(min-width: 768px){
   .class-field-group-front,
   .class-field-group--top{
     display: flex;
@@ -13927,8 +13918,21 @@ input[data-drupal-selector="edit-submit-clasificados"]{
   }
 }
 
-=======
->>>>>>> 66019d9d25b18a21862b5d5d5709f9a12d74ea1a
+@media(min-width: 768px){
+  #block-views-block-front-transmision-en-vivo-block-1 .views-field.views-field-field-video-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*Espaciado solo para transmision en vivo en front*/
+@media(min-width: 768px){
+  #block-views-block-front-transmision-en-vivo-block-1 .views-field.views-field-field-video-facebook > div > p > iframe{
+    margin-top: 2rem;
+  }
+}
+
 .views-field.views-field-title{
   text-align: center;
   padding: 0;
@@ -13950,6 +13954,7 @@ input[data-drupal-selector="edit-submit-clasificados"]{
 #block-views-block-transmision-en-vivo-block-1 .views-field-title{
   text-align: left;
   padding: 0.5rem 0;
+  height: 3rem;
 }
 
 .transmision-vivo-titulo--bottom,
@@ -14093,4 +14098,29 @@ input[data-drupal-selector="edit-submit-clasificados"]{
 }
 
 /*Fin - Video Facebook*/
+
+/*Inicio - Transmision en vivo - Seccion Bottom*/
+
+ /*@media(max-width: 767px){
+  #block-views-block-transmision-en-vivo-block-1 .views-field.views-field-field-video-facebook div{
+    width: 100%;
+    height: 250px;
+  }
+ }*/
+
+@media(min-width: 768px){
+  #block-views-block-transmision-en-vivo-block-1 .views-field.views-field-field-video-facebook > div{
+    width: 100%;
+  }
+
+  #block-views-block-transmision-en-vivo-block-1 .views-field.views-field-field-video-facebook > div > p > iframe{
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    height: 250px;
+  }
+}
+
+/*Fin - Transmision en vivo - Seccion Bottom*/
+
 
