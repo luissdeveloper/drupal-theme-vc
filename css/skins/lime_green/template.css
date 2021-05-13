@@ -13939,6 +13939,7 @@ input[data-drupal-selector="edit-submit-clasificados"]{
   height: 5rem;
   overflow: hidden;
   word-break: break-word;
+  margin-bottom: 0.5rem;
 }
 
 @media(min-width: 768px){
@@ -13955,6 +13956,17 @@ input[data-drupal-selector="edit-submit-clasificados"]{
   text-align: left;
   padding: 0.5rem 0;
   height: 3rem;
+}
+
+
+.transmision-vivo-titulo--top--mod:before,
+.transmision-vivo-titulo--front:before{
+  content: "En Vivo";
+  padding: 0.1rem 0.3rem 0 0.3rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  background-color: red;
+  color: #fff;
 }
 
 .transmision-vivo-titulo--bottom,
@@ -14051,7 +14063,7 @@ input[data-drupal-selector="edit-submit-clasificados"]{
 -webkit-filter: brightness(90%);
 -moz-filter: brightness(90%);
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   margin: 1rem 0 2rem 0;
   padding: 1rem;
@@ -14061,8 +14073,12 @@ input[data-drupal-selector="edit-submit-clasificados"]{
   font-size: 2rem;
   color: #fff;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: unset;
   text-align: center;
+}
+
+.transmision-vivo-proximo__enlace svg{
+  width: 28px;
 }
 
 /* Fin - Transmision en vivo proximo */
@@ -14101,14 +14117,33 @@ input[data-drupal-selector="edit-submit-clasificados"]{
 
 /*Inicio - Transmision en vivo - Seccion Bottom*/
 
- /*@media(max-width: 767px){
-  #block-views-block-transmision-en-vivo-block-1 .views-field.views-field-field-video-facebook div{
+@media(min-width: 768px){
+  #block-views-block-transmision-en-vivo-block-1 .views-field.views-field-field-video-facebook > div{
     width: 100%;
+  }
+
+  #block-views-block-transmision-en-vivo-block-1 .views-field.views-field-field-video-facebook > div > p > iframe{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1024px){
+  #block-views-block-transmision-en-vivo-block-1 .views-field.views-field-field-video-facebook > div{
+    width: 100%;
+  }
+
+  #block-views-block-transmision-en-vivo-block-1 .views-field.views-field-field-video-facebook > div > p > iframe{
+    padding: 0;
+    margin: 0;
+    width: 320px;
     height: 250px;
   }
- }*/
+}
 
-@media(min-width: 768px){
+@media(min-width: 1025px){
   #block-views-block-transmision-en-vivo-block-1 .views-field.views-field-field-video-facebook > div{
     width: 100%;
   }
@@ -14124,3 +14159,34 @@ input[data-drupal-selector="edit-submit-clasificados"]{
 /*Fin - Transmision en vivo - Seccion Bottom*/
 
 
+/* Inicio - Article Video Facebook para ipad*/
+
+#block-gavias-colin-content > div > article > div > div.post-content > div.node__content.clearfix > div.field.field--name-field-video-facebook.field--type-text-long.field--label-hidden.field__item{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+#block-gavias-colin-content > div > article > div > div.post-content > div.node__content.clearfix > div.field.field--name-field-video-facebook.field--type-text-long.field--label-hidden.field__item iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+/* Fin - Transmision en vivo para ipad*/
+
+/*Inicio - Ocultar icon bar para ipad
+Genera problemas en la reprodución de video
+*/
+
+
+@media(min-width: 768px) and (max-width: 1024px){
+  .icon-bar{
+    display: none;
+  }
+}
+
+/*Fin - Ocultar icon bar para ipad*/
