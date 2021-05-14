@@ -13858,6 +13858,11 @@ input[data-drupal-selector="edit-submit-clasificados"]{
   height: 24rem;
 }
 
+.clasificados-content-info--mod{
+  padding: 1rem;
+  height: auto;
+}
+
 .clasificados-post-encabezado{
   height: 7rem;
 }
